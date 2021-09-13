@@ -1,0 +1,135 @@
+html, body{
+	font-size:16px;
+	color: #261e1e;
+	background-color: #FEF7DC;
+	/* background-color: #000c4a; */
+	
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #FEF7DC;
+	/* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
+}
+
+.section-2 {
+	background-color: #E6DDC6;
+}
+
+.section-3 {
+	background-color: #C2B8A3;
+}
+
+.section-4 {
+	background-color: #A19882;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #f19c00;
+}
+
+a.nav-item:hover {
+	color: #7a7a7a;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+	background-color: #A19882;
+}
+
+hr{
+	height:0;
+	margin:0.7rem 0;
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+	color:#5f4f4f;
+}
+
+/* .intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+	color: #6a6969;
+} */
+
+.intro-title{
+	font-size:3rem;
+	text-align:center;
+	color: #6a6969;
+}
+
+.intro-content{
+	font-size:1.5rem;
+	text-align: center;
+	color:#6a6969;
+}
+.contact-section input,
+.contact-section textarea{
+	width:70%;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #6a6969;
+	}
+	.nav-toggle{
+		background-color: rgba(36, 22, 6, 0.424);
+	}
+	.nav-toggle:hover {
+		background-color: transparent;
+		color:black;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+		color:black;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;	
+	}
+
+}
