@@ -2,9 +2,8 @@ html, body{
 	font-size:16px;
 	color: #261e1e;
 	background-color: #FEF7DC;
-	/* background-color: #000c4a; */
-	
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+	/* background-color: #fad473; */
+	background-image: url("../img/arches.png");
 }
 
 a {
@@ -21,7 +20,7 @@ section{
 }
 
 .section-1 {
-	background: #FEF7DC;
+	background-color: transparent;
 	/* background-image: url("https://www.transparenttextures.com/patterns/cartographer.png"); */
 }
 
@@ -105,7 +104,7 @@ hr{
 }
 
 .contact-section{
-	background-color: #FEF7DC;
+	background-color: transparent;
 }
 .contact-section input,
 .contact-section textarea{
