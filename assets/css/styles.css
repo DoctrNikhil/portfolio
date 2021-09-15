@@ -102,6 +102,10 @@ hr{
 	text-align: center;
 	color:#6a6969;
 }
+
+.contact-section{
+	background-color: #FEF7DC;
+}
 .contact-section input,
 .contact-section textarea{
 	width:70%;
