@@ -46,6 +46,7 @@ a.nav-item:hover {
 	color: #7a7a7a;
 }
 
+
 .avatar{
 	height:200px;
 	border-radius: 50%;
@@ -113,6 +114,32 @@ hr{
 
 .void-background {
 	background-color: transparent; 
+}
+
+#aboutMe{
+	background-color: transparent;
+}
+#aboutMe .photo img {
+	width:400px;
+	margin-right:50px;
+	border-radius:43px;
+}
+
+.aboutMewrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.aboutMe{
+	margin-top:40px;
+}
+
+.info-ques{
+	font-size:larger;
+}
+
+.info-ans{
+	font-size:large
 }
 
 @media screen and (max-width: 768px) {
